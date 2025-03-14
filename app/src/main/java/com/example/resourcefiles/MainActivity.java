@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         // Copying buffer to a string builder line by line
         StringBuilder sB = new StringBuilder();
         String line = br.readLine();
-        String text = "";
+        String text = " ";
         while (line != null) {
             sB.append(line + '\n');
             line = br.readLine();
